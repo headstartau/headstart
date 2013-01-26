@@ -14,6 +14,7 @@ group :assets do
   gem 'sass-rails'
   gem 'haml-rails'
   gem 'coffee-rails'
+  gem 'yui-compressor'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby

@@ -17,7 +17,9 @@
 @import "vars";
 @import "inuit/inuit";
 
-
 /**
- * She’s all yours, cap’n... Begin importing your stuff here.
+ * Modules
  */
+@import "modules/top-bar";
+@import "modules/upcoming-events";
+

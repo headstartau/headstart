@@ -12,7 +12,7 @@
 
 .text-center,
 .text-centre{
-    text-align:center;
+  text-align:center;
 }
 
 
@@ -20,13 +20,13 @@
  * Pull items full width of `.island` parents.
  */
 .full-bleed{
-    margin-right:-$base-spacing-unit;
-    margin-left: -$base-spacing-unit;
-    
-    .islet &{
-        margin-right:-($half-spacing-unit);
-        margin-left: -($half-spacing-unit);
-    }
+  margin-right:-$base-spacing-unit;
+  margin-left: -$base-spacing-unit;
+  
+  .islet &{
+    margin-right:-($half-spacing-unit);
+    margin-left: -($half-spacing-unit);
+  }
 }
 
 
@@ -35,7 +35,7 @@
  * `:hover`.
  */
 .informative{
-    cursor:help;
+  cursor:help;
 }
 
 
@@ -43,8 +43,8 @@
  * Mute an object by reducing its opacity.
  */
 .muted{
-    opacity:0.5;
-    filter:alpha(opacity = 50);
+  opacity:0.5;
+  filter:alpha(opacity = 50);
 }
 
 
@@ -55,7 +55,7 @@
  * 
  */
 .proceed{
-    text-align:right;
+  text-align:right;
 }
 
 
@@ -66,7 +66,7 @@
  * 
  */
 .go:after{
-    content:" »";
+  content:" »";
 }
 
 
@@ -74,7 +74,7 @@
  * Apply capital case to an element (usually a `strong`).
  */
 .caps{
-    text-transform:uppercase;
+  text-transform:uppercase;
 }
 
 
@@ -89,14 +89,21 @@
  * Hide content based on breakpoint
  */
 .hide{
-    position:absolute;
-    left:-9999px;
+  position:absolute;
+  left:-9999px;
 }
 @each $state in palm, lap, portable, desk{
-    @include media-query(#{$state}){
-        .hide--#{$state}{
-            position:absolute;
-            left:-9999px;
-        }
+  @include media-query(#{$state}){
+    .hide--#{$state}{
+      position:absolute;
+      left:-9999px;
     }
+  }
+}
+
+/**
+ * center text
+ */
+.centered {
+    text-align: center;
 }

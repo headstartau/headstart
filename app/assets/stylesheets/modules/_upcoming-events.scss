@@ -1,0 +1,19 @@
+.upcoming-events {
+  
+}
+.event-col {
+  display: inline-block;
+  width: 30%;
+  margin: 0 5px;
+  .event-type {
+    margin-bottom: 10px;
+    @extend .delta;
+    font-weight: 400;
+    color: darken($body-background, 20%);
+  }
+  .event-item {
+    margin: 0;
+    padding: 10px;
+    background: #fff;
+  }
+}

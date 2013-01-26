@@ -1,0 +1,28 @@
+$topbar-height:       50px;
+$topbar-background:   #f6f6f6;
+
+#top-bar {
+  position: relative;
+  height: $topbar-height;
+  margin-bottom: 50px;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  //background: $topbar-background;
+  //border-bottom: 1px solid darken($topbar-background,10%);
+}
+.logo {
+  display: inline-block;
+  width: 150px;
+  margin: 0;
+}
+.main-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.user-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
