@@ -6,4 +6,10 @@
     = javascript_include_tag "application"
     = csrf_meta_tags
   %body
+    %ul
+      - if current_user
+        %li= link_to "logout", :logout
+      - else
+        %li= link_to "log in", :login
+        %li= link_to "register", :register
     = yield
