@@ -3,11 +3,15 @@
   %head
     %title Headstart
     = stylesheet_link_tag    "application", :media => "all"
-    = javascript_include_tag "application"
+    = javascript_include_tag "application", "//use.typekit.net/lty6atq.js"
     = csrf_meta_tags
+
+    :javascript
+      try{Typekit.load();}catch(e){}
+
   %body
     #top-bar
-      %h1.logo= image_tag "logo.png"
+      %h1.logo= image_tag "logo2.png", :width => 150
       %ul.nav.main-nav
         %li Events
         %li Workshops

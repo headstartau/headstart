@@ -4,16 +4,17 @@
 
 
 html {
-  font:#{($base-font-size/16px)*1em}/#{$line-height-ratio} "Helvetica Neue", Arial, Helvetica, sans-serif;
-  overflow-y:scroll;
-  min-height:100%;
+  font: #{($base-font-size/16px)*1em}/#{$line-height-ratio} "Gesta", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  overflow-y: scroll;
+  min-height: 100%;
 }
 body {
   width: 80%;
   max-width: 1200px;
   min-width: 900px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0 20px;
   background: $body-background;
+  color: #283848;
 }
 

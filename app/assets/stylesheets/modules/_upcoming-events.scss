@@ -1,19 +1,31 @@
 .upcoming-events {
-  
+  .heading {
+    @include font-size(14px);
+  } 
 }
-.event-col {
-  display: inline-block;
-  width: 30%;
-  margin: 0 5px;
-  .event-type {
-    margin-bottom: 10px;
-    @extend .delta;
-    font-weight: 400;
-    color: darken($body-background, 20%);
-  }
-  .event-item {
-    margin: 0;
-    padding: 10px;
-    background: #fff;
-  }
+.event-item {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+.event-title {
+  margin: 0 0 5px;
+  font-weight: 400;
+  @extend .gamma;
+}
+.event-description {
+  @include font-size(18px);
+  color: darken($body-background, 40%);
+}
+.event-person-name {
+  color: #75b4c7;
+  font-weight: 600;
+  @include font-size(12px);
+  @extend .caps;
+}
+.event-attendees {
+
 }

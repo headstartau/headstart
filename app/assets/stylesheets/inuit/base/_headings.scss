@@ -8,6 +8,13 @@
  * This allows us to apply, say, `class=alpha` to a `h3`; a double-stranded
  * heading hierarchy.
  */
+.heading {
+  display: inline-block;
+  font-family: "Din-Condensed-Web", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  border-bottom: 2px solid darken($body-background, 15%);
+  color: darken($body-background, 20%);
+}
 h1,.alpha{
     @include font-size($h1-size);
 }
