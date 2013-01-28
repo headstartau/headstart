@@ -8,7 +8,6 @@ $topbar-background:   #f6f6f6;
   padding: 25px 0 0;
   text-align: center;
   text-align: left;
-  @extend .caps;
   //background: $topbar-background;
   //border-bottom: 1px solid darken($topbar-background,10%);
 }
@@ -20,8 +19,19 @@ $topbar-background:   #f6f6f6;
 }
 .main-nav {
   float: left;
+  font-weight: 500;
+  color: darken($body-background, 50%);
+  li {
+    margin-right: 1.5em;
+  }
 }
 .user-nav {
   float: right;
+  a {
+    color: darken($body-background, 30%);
+  }
+  li {
+    margin-left: 1.5em;
+  }
 }
 

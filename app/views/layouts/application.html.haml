@@ -21,7 +21,7 @@
           %li= "Logged in as #{current_user.email}"
           %li= link_to "logout", :logout
         - else
-          %li= link_to "log in", :login
           %li= link_to "register", :register
+          %li= link_to "log in", :login
 
     .gw= yield(:content)
