@@ -1,2 +1,7 @@
-#h1 Headstart is a community aimed at helping aspiring entrepreneurs start and grow successful online businesses.
- 
+%h1 Headstart is a community aimed at helping aspiring entrepreneurs start and grow successful online businesses.
+
+%h2 Upcoming events
+
+%ul
+  - @events.each do |event|
+    %li= link_to event.name, event
