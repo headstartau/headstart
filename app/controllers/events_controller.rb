@@ -1,20 +1,20 @@
 class EventsController < ApplicationController
 
   def index
-    @users = Event.all
+    @events = Event.all
 
     respond_to do |format|
       format.html
-      format.json { render json: @users }
+      format.json { render json: @events }
     end
   end
 
   def show
-    @user = Event.find(params[:id])
+    @event = Event.find(params[:id])
 
     respond_to do |format|
       format.html
-      format.json { render json: @user }
+      format.json { render json: @event }
     end
   end
 
