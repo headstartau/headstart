@@ -5,22 +5,23 @@ $topbar-background:   #f6f6f6;
   position: relative;
   height: $topbar-height;
   margin-bottom: 50px;
-  padding: 40px 5px 0;
+  padding: 25px 0 0;
   text-align: center;
-  text-transform: uppercase;
   text-align: left;
+  @extend .caps;
   //background: $topbar-background;
   //border-bottom: 1px solid darken($topbar-background,10%);
 }
 .logo {
   float: left;
-  width: 150px;
-  margin: -30px 0 0;
+  width: 80px;
+  margin: -15px 0 0;
   padding: 0;
 }
 .main-nav {
-  float: right;
+  float: left;
 }
 .user-nav {
   float: right;
 }
+

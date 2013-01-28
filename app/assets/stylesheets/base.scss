@@ -21,5 +21,39 @@
  * Modules
  */
 @import "modules/top-bar";
-@import "modules/upcoming-events";
+@import "modules/events";
 
+%content-block {
+  padding: 2em;
+  background: #fff;
+  border-radius: 1px;
+  box-shadow: 0 1px 3px darken($body-background, 10%)
+}
+.content-block {
+  @extend %content-block;
+  margin-bottom: 2em;
+}
+.heading {
+  @include font-size(14px);
+} 
+.content-block {
+  @extend %content-block;
+}
+.event-item {
+  @extend %content-block;
+}
+.event-info {
+  //text-transform: uppercase;
+  //font-weight: 500;
+  color: lighten(#75b4c7, 15%);
+  margin: -1.2em 0 1.2em;
+  b {
+    font-weight: 500;
+    color: #75b4c7;
+  }
+}
+.btn {
+  background: #a0c9d4;
+  color: #fff;
+  border-radius: 3px;
+}

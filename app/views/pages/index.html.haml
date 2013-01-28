@@ -1,13 +1,12 @@
 .gw
   .g.one-whole.centered
     .upcoming-events
-      %h3.heading Up Next
+      %h3.heading Coming Up
       .event-item
         %h4.event-title Starting Business Logistics
         %p.event-description Etiam porta sem malesuada magna mollis euismod. Curabitur blandit tempus porttitor.        
         .event-person
           .event-person-avatar= image_tag "kogan.png", :width => 80
           .event-person-name Ruslan Kogan
-        .event-attendees
-          40 people are attending this event
+        = link_to "view details", :event, :class => "btn"
       

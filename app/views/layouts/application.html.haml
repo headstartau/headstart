@@ -11,7 +11,7 @@
 
   %body
     #top-bar
-      %h1.logo= image_tag "logo2.png", :width => 150
+      %h1.logo= image_tag "logo2.png", :width => 50
       %ul.nav.main-nav
         %li Events
         %li Workshops
@@ -23,4 +23,5 @@
         - else
           %li= link_to "log in", :login
           %li= link_to "register", :register
-    = yield
+
+    .gw= yield(:content)

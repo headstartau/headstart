@@ -1,23 +1,20 @@
-.upcoming-events {
-  .heading {
-    @include font-size(14px);
-  } 
-}
 .event-item {
   width: 400px;
   margin: 0 auto;
-  padding: 20px;
-  background: #fff;
-  border-radius: 2px;
-  box-shadow: 0 1px 3px rgba(0,0,0,.1);
 }
 .event-title {
-  margin: 0 0 5px;
+  //margin: 0 0 .2em;
+  padding-bottom: .1em !important;
   font-weight: 400;
   @extend .gamma;
+  //font-family: "din-condensed-web";
+  //text-transform: uppercase;
+  //border-bottom: 3px solid $global-text;
+  font-style: italic;
+  display: inline-block;
 }
 .event-description {
-  @include font-size(18px);
+  @extend .epsilon;
   color: darken($body-background, 40%);
 }
 .event-person-name {

@@ -1,0 +1,7 @@
+- content_for :content do
+  .g.two-thirds
+    .main-content= yield
+  .g.one-third
+    .side-content=  yield(:side_content) if content_for?(:side_content)
+  
+= render :template => 'layouts/application'
