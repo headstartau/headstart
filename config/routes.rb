@@ -1,9 +1,11 @@
 Headstart::Application.routes.draw do
 
+  get "logout" => "sessions#destroy", :as => "logout"
+  get "login" => "sessions#new", :as => "login"
+  get "register" => "users#new", :as => "register"
 
-  get "logout"  => "sessions#destroy", :as => "logout"
-  get "login"   => "sessions#new", :as => "login"
-  get "register"  => "users#new", :as => "register"
+  get '/auth/:provider/callback' => 'sessions#create'
+  get '/auth/failure' => 'sessions#create'
 
   resources :users
   resources :sessions
@@ -12,6 +14,7 @@ Headstart::Application.routes.draw do
   root :to => "pages#index"
 
   namespace :admin do
+    resources :users
     resources :events
   end
 
