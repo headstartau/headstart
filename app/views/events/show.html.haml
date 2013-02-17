@@ -3,9 +3,9 @@
     .event-map
       %iframe{:frameborder => "0", :height => "90", :marginheight => "0", :marginwidth => "0", :scrolling => "no", :src => "https://maps.google.com.au/maps?f=q&source=s_q&hl=en&geocode=&q=inspire9&aq=&sll=-37.829277,144.991808&sspn=0.029659,0.049653&ie=UTF8&hq=inspire9&t=m&ll=-37.829277,144.991808&spn=0.00322,0.008326&z=15&iwloc=A&output=embed", :width => "205"}
     .event-calendar
-      .event-month= @event.starts_at.strftime("%M")
+      .event-month= @event.starts_at.strftime("%h")
       .event-date= @event.starts_at.strftime("%d")
-      .event-time= @event.starts_at.strftime("%h")
+      .event-time= @event.starts_at.strftime("%H:%M")
   = link_to("#", :class => "btn") do
     <i>&#xF070;</i> I’m attending
   = link_to 'Back', root_path
