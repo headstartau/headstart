@@ -1,7 +1,7 @@
 $topbar-height:       50px;
 $topbar-background:   #f6f6f6;
 
-#top-bar {
+header {
   position: relative;
   height: $topbar-height;
   margin-bottom: 50px;
@@ -20,7 +20,7 @@ $topbar-background:   #f6f6f6;
 .main-nav {
   float: left;
   font-weight: 500;
-  color: darken($body-background, 50%);
+  color: darken($body-background, 40%);
   li {
     margin-right: 1.5em;
   }

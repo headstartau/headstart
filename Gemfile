@@ -14,6 +14,7 @@ group :assets do
   gem 'sass-rails'
   gem 'haml-rails'
   gem 'coffee-rails'
+  gem 'compass-rails'
   gem 'yui-compressor'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -23,6 +24,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'turbolinks'
 
 gem 'sorcery'
 

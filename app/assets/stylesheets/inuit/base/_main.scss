@@ -9,12 +9,7 @@ html {
   min-height: 100%;
 }
 body {
-  width: 80%;
-  max-width: 1000px;
-  min-width: 800px;
-  margin: 0 auto;
-  padding: 0 20px;
   background: $body-background;
-  color: #283848;
+  color: $global-text;
 }
 

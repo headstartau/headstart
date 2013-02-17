@@ -23,7 +23,9 @@ class UsersController < ApplicationController
     @user = User.new
 
     respond_to do |format|
-      format.html # new.html.erb
+
+      
+      format.html { render :layout => 'two-col' }
       format.json { render json: @user }
     end
   end

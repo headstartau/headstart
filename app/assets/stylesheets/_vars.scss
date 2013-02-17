@@ -8,7 +8,7 @@
  */
 
 $body-background:   #eceef2!default;
-$global-text:       #283848!default;
+$global-text:       darken($body-background, 60%)!default;
 
 
 /**

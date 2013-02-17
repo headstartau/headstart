@@ -3,25 +3,38 @@
   %head
     %title Headstart
     = stylesheet_link_tag    "application", :media => "all"
-    = javascript_include_tag "application", "//use.typekit.net/lty6atq.js"
+    = javascript_include_tag "application", "//use.typekit.net/lty6atq.js", "http://192.168.0.1:35729/livereload.js?snipver=1"
     = csrf_meta_tags
 
     :javascript
-      try{Typekit.load();}catch(e){}
+      (function (d, t) {
+        var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        bh.type = 'text/javascript';
+        bh.src = '//localhost:3000/sidebarv2.js?apikey=x9xj5eekwwbqnxs8yrt1og';
+        s.parentNode.insertBefore(bh, s);
+        })(document, 'script');
 
   %body
-    #top-bar
-      %h1.logo= image_tag "logo2.png", :width => 50
-      %ul.nav.main-nav
-        %li Events
-        %li Workshops
-        %li Discussions
-      %ul.nav.user-nav
-        - if current_user
-          %li= "Logged in as #{current_user.email}"
-          %li= link_to "logout", :logout
-        - else
-          %li= link_to "register", :register
-          %li= link_to "log in", :login
+    .main-wrap
+      .content-wrap
+        %header
+          %h1.logo= link_to (image_tag "logo2.png", :width => 50), :root
+          %ul.nav.main-nav
+            %li Events
+            %li Workshops
+            %li Discussions
+          %ul.nav.user-nav
+            - if current_user
+              %li= "Logged in as #{current_user.email}"
+              %li= link_to "logout", :logout
+            - else
+              %li= link_to "Register", :register
+              %li= link_to "Log in", :login
 
-    .gw= yield(:content)
+        .gw= yield(:content)
+
+      %footer
+        .content-wrap
+          dsaadssad
+
+
