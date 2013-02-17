@@ -1,6 +1,13 @@
-%p#notice= notice
+%h1= @user.full_name
 
+%p= @user.bio
+%p= image_tag @user.avatar_url if @user.avatar_url
 
-= link_to 'Edit', edit_user_path(@user)
-\|
-= link_to 'Back', users_path
+%p= link_to "@#{@user.twitter_name}", "https://twitter.com/#{@user.twitter_name}" if @user.twitter_name
+%p= @user.linkedin_url if @user.linkedin_url
+%p= @user.facebook_id if @user.facebook_id
+
+- if @user.startup_name and @user.startup_url
+  %p= link_to @user.startup_name, @user.startup_url
+  %p= image_tag @user.startup_logo_url if @user.startup_logo_url
+  %p= @user.startup_blurb

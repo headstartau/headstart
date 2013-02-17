@@ -23,18 +23,19 @@
             %li Events
             %li Workshops
             %li Discussions
-          %ul.nav.user-nav
+          %ul
             - if current_user
-              %li= "Logged in as #{current_user.email}"
+              %li= link_to current_user.first_name, current_user
+              %li= link_to "edit", edit_user_path(current_user)
               %li= link_to "logout", :logout
             - else
-              %li= link_to "Register", :register
-              %li= link_to "Log in", :login
+              %li= link_to image_tag('http://img2.meetupstatic.com/906521611995523788/img/header/logo.png'), '/auth/meetup'
+              %li= link_to "log in", :login
+              %li= link_to "register", :register
 
+        %p#notice= notice
         .gw= yield(:content)
 
       %footer
         .content-wrap
           dsaadssad
-
-

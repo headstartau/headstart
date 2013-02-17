@@ -10,3 +10,11 @@
           .event-person-avatar= image_tag "kogan.png", :width => 80
         = link_to "view details", :event, :class => "btn"
       
+
+%h1 Headstart is a community aimed at helping aspiring entrepreneurs start and grow successful online businesses.
+
+%h2 Upcoming events
+
+%ul
+  - @events.each do |event|
+    %li= link_to event.name, event

@@ -1,0 +1,535 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"after_",
+				"after_create"
+			],
+			[
+				"current",
+				"current_organization"
+			],
+			[
+				"se",
+				"secret_url"
+			],
+			[
+				"ma",
+				"match"
+			],
+			[
+				"sen",
+				"sent_to_integration"
+			],
+			[
+				"col",
+				"collaborators"
+			],
+			[
+				"refr",
+				"refresh_token"
+			],
+			[
+				"task",
+				"task_watchers"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"user",
+				"user_variation"
+			],
+			[
+				"has_",
+				"has_variation"
+			],
+			[
+				"activate",
+				"activate_guest"
+			],
+			[
+				"select",
+				"selector_info"
+			],
+			[
+				"subscript",
+				"subscription_id"
+			],
+			[
+				"subscriptio",
+				"subscription_state"
+			],
+			[
+				"bookma",
+				"bookmarklet"
+			],
+			[
+				"statment",
+				"statement_id"
+			],
+			[
+				"un",
+				"unprocessable_entity"
+			],
+			[
+				"organizat",
+				"organization"
+			],
+			[
+				"or",
+				"organization_memberships"
+			],
+			[
+				"org",
+				"org_member"
+			],
+			[
+				"prior",
+				"priority_id"
+			],
+			[
+				"act",
+				"active_task"
+			],
+			[
+				"record",
+				"record_event"
+			],
+			[
+				"organization",
+				"organization_member"
+			],
+			[
+				"find_",
+				"find_or_initialize_by_user_id"
+			],
+			[
+				"owned_",
+				"owned_organizations"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 187.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/vincent/dev/BugHerd/app/assets/javascripts/admin.js",
+		"/Users/vincent/dev/BugHerd/app/views/pages/preview.html.erb",
+		"/Users/vincent/dev/BugHerd/app/views/pages/home.html.erb",
+		"/Users/vincent/dev/BugHerd/app/views/pages/features.html.erb",
+		"/Users/vincent/dev/BugHerd/app/assets/javascripts/admin/views/application/application.js",
+		"/Users/vincent/dev/BugHerd/app/views/organizations/_note.html.erb",
+		"/Users/vincent/dev/BugHerd/app/controllers/sidebar/preview_controller.rb",
+		"/Users/vincent/dev/BugHerd/config/routes.rb",
+		"/Users/vincent/dev/BugHerd/app/controllers/sidebar/tasks_controller.rb",
+		"/Users/vincent/dev/BugHerd/app/views/pages/setup.html.erb",
+		"/Users/vincent/dev/bugherd-ruby/lib/bugherd/version.rb",
+		"/Users/vincent/Desktop/Timesheets/timesheet-alan.rb",
+		"/Users/vincent/Desktop/Timesheets/timesheet-matt.rb",
+		"/Users/vincent/Desktop/Timesheets/timesheet-vincent.rb",
+		"/Users/vincent/dev/BugHerd/app/models/user.rb",
+		"/Users/vincent/dev/BugHerd/app/models/project.rb",
+		"/Users/vincent/dev/BugHerd/config/application.rb",
+		"/Users/vincent/dev/BugHerd/app/views/admin/experiments/show.html.erb",
+		"/Users/vincent/dev/BugHerd/app/views/admin/experiments/_result.html.erb",
+		"/Users/vincent/dev/BugHerd/app/models/integrations/bcx.rb",
+		"/Users/vincent/dev/BugHerd/app/controllers/extension/projects_controller.rb",
+		"/Users/vincent/dev/BugHerd/app/models/organization_member.rb",
+		"/Users/vincent/dev/BugHerd/app/models/collaborator.rb",
+		"/Users/vincent/dev/BugHerd/app/controllers/admin/users_controller.rb",
+		"/Users/vincent/dev/BugHerd/app/helpers/application_helper.rb",
+		"/Users/vincent/dev/BugHerd/bugherd_tweets.csv",
+		"/Users/vincent/dev/BugHerd/config/initializers/twitter.rb",
+		"/Users/vincent/dev/BugHerd/config/initializers/devise.rb",
+		"/Users/vincent/dev/BugHerd/app/views/pages/index.html.erb",
+		"/Users/vincent/dev/BugHerd/app/views/shared/_twitter_favorites.html.erb",
+		"/Users/vincent/dev/BugHerd/app/views/layouts/admin.html.erb",
+		"/Users/vincent/dev/BugHerd/app/models/organization.rb",
+		"/Users/vincent/dev/BugHerd/app/views/shared/_bugherd.html.erb",
+		"/Users/vincent/dev/BugHerd/app/views/admin/organizations/index.html.erb",
+		"/Users/vincent/dev/BugHerd/app/helpers/admin_helper.rb",
+		"/Users/vincent/dev/BugHerd/top_customers.csv",
+		"/Users/vincent/dev/BugHerd/app/controllers/account_controller.rb",
+		"/Users/vincent/dev/BugHerd/on-edge.csv",
+		"/Users/vincent/dev/BugHerd/app/assets/javascripts/sidebar/views/application/application.js",
+		"/Users/vincent/dev/BugHerd/app/assets/javascripts/admin/app.js.erb",
+		"/Users/vincent/dev/BugHerd/app/controllers/pages_controller.rb",
+		"/Users/vincent/dev/BugHerd/app/views/pages/sandbox.html.erb",
+		"/Users/vincent/dev/BugHerd/app/assets/stylesheets/sandbox.css.erb",
+		"/Users/vincent/dev/BugHerd/config/environments/testing.rb",
+		"/Users/vincent/dev/BugHerd/config/environments/staging.rb",
+		"/Users/vincent/dev/BugHerd/config/environments/production.rb",
+		"/Users/vincent/dev/BugHerd/config/database.yml",
+		"/Users/vincent/dev/BugHerd/app/views/pages/experiment_test.html.erb",
+		"/Users/vincent/dev/BugHerd/app/assets/stylesheets/sandbox.css",
+		"/Users/vincent/dev/BugHerd/app/controllers/admin/organizations_controller.rb",
+		"/Users/vincent/dev/BugHerd/app/views/admin/connectors/show.html.erb",
+		"/Users/vincent/dev/BugHerd/app/controllers/projects_controller.rb",
+		"/Users/vincent/dev/BugHerd/app/controllers/organizations_controller.rb",
+		"/Users/vincent/dev/BugHerd/app/views/projects/_install_widget.html.erb",
+		"/Users/vincent/dev/BugHerd/config/initializers/excon.rb",
+		"/Users/vincent/dev/BugHerd/config/initializers/asset_sync.rb",
+		"/Users/vincent/dev/BugHerd/app/models/project_integration.rb",
+		"/Users/vincent/dev/BugHerd/config/initializers/delayed_job_config.rb",
+		"/Users/vincent/dev/BugHerd/Gemfile",
+		"/Users/vincent/dev/BugHerd/app/views/layouts/page_alt.html.erb",
+		"/Users/vincent/dev/BugHerd/app/models/integrations/zendesk.rb",
+		"/Users/vincent/dev/BugHerd/app/models/integration.rb",
+		"/Users/vincent/dev/BugHerd/app/models/integrations/jira.rb",
+		"/Users/vincent/dev/BugHerd/app/models/comment_observer.rb",
+		"/Users/vincent/dev/BugHerd/app/views/tasks/show.html.erb",
+		"/Users/vincent/dev/BugHerd/app/mailers/emailer.rb",
+		"/Users/vincent/dev/BugHerd/db/schema.rb",
+		"/Users/vincent/dev/BugHerd/app/views/admin/organizations/survey_results.html.erb",
+		"/Users/vincent/dev/BugHerd/app/assets/templates/shared.html",
+		"/Users/vincent/dev/BugHerd/app/controllers/tasks_controller.rb",
+		"/Users/vincent/dev/BugHerd/app/views/sidebar/tasks/show_full.rabl",
+		"/Users/vincent/dev/BugHerd/app/views/emailer/send_to_jira_email.text.erb",
+		"/Users/vincent/dev/BugHerd/app/models/task.rb",
+		"/Users/vincent/dev/BugHerd/app/views/sidebar/tasks/show.rabl",
+		"/Users/vincent/dev/BugHerd/app/views/integrations/projects.html.erb",
+		"/Users/vincent/dev/BugHerd/app/views/integrations/edit.html.erb",
+		"/Users/vincent/dev/BugHerd/Rakefile",
+		"/Users/vincent/dev/BugHerd/db/migrate/20110207003946_change_json_dat_type.rb",
+		"/Users/vincent/dev/BugHerd/app/views/projects/new.html.erb",
+		"/Users/vincent/dev/BugHerd/db/migrate/20121219032610_auth_provider_field_length.rb",
+		"/Users/vincent/dev/BugHerd/app/views/organizations/form.html.erb",
+		"/Users/vincent/dev/BugHerd/app/controllers/heroku/resources_controller.rb",
+		"/Users/vincent/dev/BugHerd/app/views/layouts/login.html.erb",
+		"/Users/vincent/dev/BugHerd/app/views/projects/show_invalid.html.erb",
+		"/Users/vincent/dev/BugHerd/app/controllers/heroku/session_controller.rb",
+		"/Users/vincent/dev/BugHerd/addon-manifest.json",
+		"/Users/vincent/dev/BugHerd/app/views/shared/_heroku_header.html.erb",
+		"/Users/vincent/dev/BugHerd/db/migrate/20121217004136_project_external_provision.rb",
+		"/Users/vincent/dev/BugHerd/app/views/projects/show_guest.html.erb",
+		"/Users/vincent/dev/BugHerd/app/views/integrations/configure.html.erb",
+		"/Users/vincent/dev/BugHerd/app/models/integrations/campfire.rb",
+		"/Users/vincent/dev/BugHerd/app/views/integrations/new.html.erb",
+		"/Users/vincent/dev/BugHerd/app/views/integrations/_oauth_campfire.html.erb",
+		"/Users/vincent/dev/BugHerd/app/controllers/integrations_controller.rb",
+		"/Users/vincent/dev/BugHerd/app/controllers/sidebar/attachments_controller.rb",
+		"/Users/vincent/dev/BugHerd/db/active_import/plan_development.csv",
+		"/Users/vincent/dev/BugHerd/app/controllers/heroku/authenticate_controller.rb",
+		"/Users/vincent/dev/BugHerd/app/controllers/heroku/sso_controller.rb",
+		"/Users/vincent/dev/BugHerd/app/views/admin/users/show.html.erb",
+		"/Users/vincent/dev/BugHerd/app/controllers/heroku_controller.rb",
+		"/Users/vincent/dev/BugHerd/app/views/layouts/page.html.erb",
+		"/Users/vincent/dev/BugHerd/Gemfile.lock",
+		"/Users/vincent/dev/bugherd-ruby/test/bugherd_test.rb",
+		"/Users/vincent/dev/bugherd-ruby/lib/bugherd/helpers/bugherd_helper.rb",
+		"/Users/vincent/dev/bugherd-ruby/test/dummy/app/views/layouts/application.html.erb",
+		"/Users/vincent/dev/bugherd-ruby/lib/bugherd/configuration.rb",
+		"/Users/vincent/dev/bugherd-ruby/Rakefile",
+		"/Users/vincent/dev/bugherd-ruby/bugherd.gemspec",
+		"/Users/vincent/dev/bugherd-ruby/README.md",
+		"/Users/vincent/dev/bugherd-ruby/test/dummy/config/routes.rb",
+		"/Users/vincent/dev/bugherd-ruby/test/dummy/app/views/main/index.html.erb",
+		"/Users/vincent/dev/bugherd-ruby/test/dummy/app/controllers/main_controller.rb",
+		"/Users/vincent/dev/bugherd-ruby/lib/bugherd/railtie.rb",
+		"/Users/vincent/dev/bugherd-ruby/README.rdoc",
+		"/Users/vincent/dev/bugherd-ruby/test/dummy/config/initializers/bugherd.rb",
+		"/Users/vincent/dev/bugherd-ruby/lib/bugherd.rb",
+		"/Users/vincent/dev/bugherd-ruby/lib/bugherd/helper/bugherd_helper.rb",
+		"/Users/vincent/dev/bugherd-client/bugherd/bugherd.gemspec",
+		"/Users/vincent/dev/BugHerd/config/initializers/bugherd.rb",
+		"/Users/vincent/dev/bugherd-ruby/.gitignore",
+		"/Users/vincent/dev/bugherd-client/bugherd/lib/bugherd/configuration.rb",
+		"/Users/vincent/dev/bugherd-client/bugherd/MIT-LICENSE",
+		"/Users/vincent/dev/BugHerd/test.csv",
+		"/Users/vincent/dev/BugHerd/convert-playnicely.rb",
+		"/Users/vincent/Desktop/Hot Tomali/AmericanEHR.csv",
+		"/Users/vincent/dev/BugHerd/app/controllers/admin/projects_controller.rb",
+		"/Users/vincent/dev/paranoia/lib/paranoia.rb",
+		"/Users/vincent/dev/BugHerd/timesheet-vincent.rb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/vincent/dev/BugHerd/app",
+			"/Users/vincent/dev/BugHerd",
+			"/Users/vincent/dev/BugHerd/app",
+			"/Users/vincent/dev/BugHerd",
+			"/Users/vincent/dev/BugHerd/app",
+			"/Users/vincent/dev/BugHerd/app/views",
+			"/Users/vincent/dev/BugHerd/app",
+			"/Users/vincent/dev/BugHerd/db",
+			"/Users/vincent/dev/BugHerd/app",
+			"/Users/vincent/dev/github-services",
+			"/Users/vincent/dev/BugHerd/app",
+			"/Users/vincent/dev/BugHerd/public",
+			"/Users/vincent/dev/BugHerd/app",
+			"/Users/vincent/dev/BugHerd",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"We also offer solo plans with 1 user and no integrations which are 100% free",
+			"segment",
+			"signed_in",
+			"bh.load",
+			"ask ",
+			"install",
+			"/preview",
+			"preview",
+			"update",
+			"projInstallPop",
+			"projInstall",
+			"install it now",
+			"inform_users",
+			"devurl",
+			"visible_projects",
+			":on => :create",
+			"Pusher",
+			"inactive_message",
+			"oauth_token",
+			"consumer_secret",
+			"consumer_key",
+			"oauth_token_secret",
+			"Twitter.fav",
+			"Twitter.",
+			"partial",
+			"Twitter.favorites",
+			"Twitter",
+			"!current_organization.is_paying",
+			"100",
+			"Chargify::Subscription",
+			"subscription",
+			"csv",
+			"cache",
+			"home",
+			"root",
+			"slider",
+			"bg-body",
+			"<?php echo linkmain(); ?>",
+			"<?php echo link404(); ?>",
+			"link404",
+			"startGuiders",
+			"guider",
+			"showGuiders",
+			"guider",
+			"Chargify signup failure",
+			"def setup",
+			"show_setup_page",
+			"segmented",
+			"revised_onboarding",
+			"signed_in",
+			"handle_async",
+			"Spread the love",
+			"help_text",
+			".button-install",
+			"project-",
+			"record_event!",
+			"mark_as_installed!",
+			"record_event",
+			"experiment3",
+			"display_docs_on_install_page",
+			"extension_onboarding",
+			"forced_install_is_back",
+			"signup_force_bottom",
+			"signup_preamble_getstarted",
+			"instruction_video_on_install_page",
+			"basecamp_call",
+			"services",
+			"requester",
+			"truncate",
+			"organiza",
+			"proj",
+			"users",
+			"integr",
+			"sign up for free now",
+			"Sign up for free now.",
+			"auth_",
+			"change_column",
+			"text",
+			"notice",
+			"content_for",
+			"Back home",
+			"Back to home",
+			"active_pro",
+			"active_organization",
+			"real_push",
+			"find_or",
+			"content_length",
+			"def add_coll",
+			"twitter",
+			"Get started now by selecting the extension you want to use",
+			"api_key",
+			"ADDON_CONFIG_NAME",
+			"ADDON_SLUG",
+			"ADDON_NAME",
+			"visib",
+			"visible",
+			"add_",
+			"destroy",
+			"validation",
+			"after validation",
+			"local",
+			"ConversionModel",
+			"conversion_probability",
+			"side",
+			"record_event",
+			"record_",
+			"record",
+			"sass",
+			"twitter",
+			"log",
+			"I only want feedback from people I invite",
+			"minimization",
+			"text",
+			"theruby",
+			"paranoia",
+			"secret",
+			"tasks",
+			"screenshot_",
+			"upton",
+			"olas",
+			"update_column",
+			"show_sidebar_intro",
+			"completed_sidebar_intro",
+			"/home",
+			"show_survey",
+			"trial_expired",
+			"herding bugs",
+			"team"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#",
+			"BUGHERD_PROJECT_KEY",
+			"bugherd",
+			"BugHerd"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"router",
+				"app/assets/javascripts/admin/routers/application.js.coffee"
+			],
+			[
+				"project",
+				"app/controllers/projects_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true
+}

@@ -6,5 +6,38 @@
         - @user.errors.full_messages.each do |msg|
           %li= msg
 
+  .field
+    = f.label :email
+    = f.text_field :email
+  .field
+    = f.label :first_name
+    = f.text_field :first_name
+  .field
+    = f.label :last_name
+    = f.text_field :last_name
+  .field
+    = f.label :bio
+    = f.text_area :bio
+  .field
+    = f.label :avatar_url
+    = f.text_field :avatar_url
+  .field
+    = f.label :twitter_name
+    = f.text_field :twitter_name
+  .field
+    = f.label :linkedin_url
+    = f.text_field :linkedin_url
+  .field
+    = f.label :startup_name
+    = f.text_field :startup_name
+  .field
+    = f.label :startup_blurb
+    = f.text_field :startup_blurb
+  .field
+    = f.label :startup_url
+    = f.text_field :startup_url
+  .field
+    = f.label :startup_logo_url
+    = f.text_field :startup_logo_url
   .actions
     = f.submit 'Save'

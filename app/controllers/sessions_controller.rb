@@ -5,7 +5,13 @@ class SessionsController < ApplicationController
   end
 
   def create
-    user = login(params[:email], params[:password], params[:remember_me])
+    if params[:provider]
+      user = User.find_or_create_from_auth_hash(auth_hash)
+      auto_login(user)
+    else
+      user = login(params[:email], params[:password], params[:remember_me])
+    end
+
     if user
       redirect_back_or_to root_url, :notice => "Logged in!"
     else
@@ -18,4 +24,11 @@ class SessionsController < ApplicationController
     logout
     redirect_to root_url, :notice => "Logged out!"
   end
+
+protected
+
+  def auth_hash
+    request.env['omniauth.auth']
+  end
+
 end

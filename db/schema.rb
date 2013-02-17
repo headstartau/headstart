@@ -11,12 +11,36 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130125110035) do
+ActiveRecord::Schema.define(:version => 20130217032216) do
+
+  create_table "authentications", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "provider"
+    t.string   "uid"
+    t.string   "token"
+    t.string   "refresh_token"
+    t.datetime "expires_at"
+    t.text     "meta"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
+
+  add_index "authentications", ["user_id"], :name => "index_authentications_on_user_id"
+
+  create_table "events", :force => true do |t|
+    t.string   "name"
+    t.datetime "starts_at"
+    t.datetime "ends_at"
+    t.string   "venue"
+    t.text     "description"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
 
   create_table "users", :force => true do |t|
-    t.string   "first_name",                      :null => false
-    t.string   "last_name",                       :null => false
-    t.string   "email",                           :null => false
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "email"
     t.string   "crypted_password"
     t.string   "salt"
     t.datetime "created_at",                      :null => false
@@ -26,6 +50,15 @@ ActiveRecord::Schema.define(:version => 20130125110035) do
     t.datetime "reset_password_email_sent_at"
     t.string   "remember_me_token"
     t.datetime "remember_me_token_expires_at"
+    t.string   "startup_name"
+    t.text     "startup_blurb"
+    t.string   "startup_url"
+    t.string   "startup_logo_url"
+    t.string   "avatar_url"
+    t.text     "bio"
+    t.string   "twitter_name"
+    t.string   "linkedin_url"
+    t.string   "facebook_id"
   end
 
   add_index "users", ["remember_me_token"], :name => "index_users_on_remember_me_token"

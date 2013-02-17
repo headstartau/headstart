@@ -1,0 +1,18 @@
+%h1= @event.name
+
+%p
+  Date:
+  = @event.starts_at.strftime("%A, %e %h %G")
+
+%p
+  Time:
+  = @event.starts_at.strftime("%l:%M %p")
+
+%p
+  Venue:
+  = @event.venue
+
+%p
+  = @event.description
+
+= link_to 'Back', root_path
