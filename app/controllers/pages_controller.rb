@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
 
   def index
-    @events = Event.where('starts_at > ?', Time.now).order(:starts_at)
+    @events = Event.all
     render :layout => "one-col"
   end
 

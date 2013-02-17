@@ -1,20 +1,20 @@
 .gw
   =image_tag "mast.jpg"
   .g.one-whole.centered
+    %h1 Headstart is a community aimed at helping aspiring entrepreneurs start and grow successful online businesses.
     .upcoming-events
       %h3.heading Coming Up
-      .event-item
-        %h4.event-title Starting Business Logistics
-        .event-info with <b>Ruslan Kogan</b>
-        .event-person
-          .event-person-avatar= image_tag "kogan.png", :width => 80
-        = link_to "view details", :event, :class => "btn"
+      %ul
+        - @events.each do |event|
+          %li= link_to event.name, event
+      / .event-item
+      /   %h4.event-title Starting Business Logistics
+      /   .event-info with <b>Ruslan Kogan</b>
+      /   .event-person
+      /     .event-person-avatar= image_tag "kogan.png", :width => 80
+      /   = link_to "view details", :event, :class => "btn"
       
 
-%h1 Headstart is a community aimed at helping aspiring entrepreneurs start and grow successful online businesses.
 
-%h2 Upcoming events
 
-%ul
-  - @events.each do |event|
-    %li= link_to event.name, event
+

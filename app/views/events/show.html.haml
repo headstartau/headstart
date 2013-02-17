@@ -1,18 +1,27 @@
-%h1= @event.name
+- content_for :side_content do
+  .event-details
+    .event-map
+      %iframe{:frameborder => "0", :height => "90", :marginheight => "0", :marginwidth => "0", :scrolling => "no", :src => "https://maps.google.com.au/maps?f=q&source=s_q&hl=en&geocode=&q=inspire9&aq=&sll=-37.829277,144.991808&sspn=0.029659,0.049653&ie=UTF8&hq=inspire9&t=m&ll=-37.829277,144.991808&spn=0.00322,0.008326&z=15&iwloc=A&output=embed", :width => "205"}
+    .event-calendar
+      .event-month= @event.starts_at.strftime("%M")
+      .event-date= @event.starts_at.strftime("%d")
+      .event-time= @event.starts_at.strftime("%h")
+  = link_to("#", :class => "btn") do
+    <i>&#xF070;</i> I’m attending
+  = link_to 'Back', root_path
+  
 
-%p
-  Date:
-  = @event.starts_at.strftime("%A, %e %h %G")
+.content-block
+  %h2.event-title= @event.name
+  .event-info 
+    with <b>Ruslan Kogan</b> at 
+    %b= @event.venue
+  %div.event-description= @event.description
+  .comment-block
+    %textarea
+  %ul.comment-feed
+    %li Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+    %li Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    %li Nullam id dolor id nibh ultricies vehicula ut id elit.
+    %li Maecenas faucibus mollis interdum.
 
-%p
-  Time:
-  = @event.starts_at.strftime("%l:%M %p")
-
-%p
-  Venue:
-  = @event.venue
-
-%p
-  = @event.description
-
-= link_to 'Back', root_path
