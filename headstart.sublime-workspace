@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"auth",
+				"auth_hash"
+			],
+			[
+				"au",
+				"auth_hash"
+			],
+			[
 				"after_",
 				"after_create"
 			],
@@ -115,6 +123,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 1516,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/users/_form.html.haml",
+			"settings":
+			{
+				"buffer_size": 1011,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/users/show.html.haml",
+			"settings":
+			{
+				"buffer_size": 470,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/users/index.html.haml",
+			"settings":
+			{
+				"buffer_size": 122,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/users_controller.rb",
+			"settings":
+			{
+				"buffer_size": 647,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -148,6 +196,21 @@
 	},
 	"file_history":
 	[
+		"/Users/vincent/dev/headstart/app/views/layouts/application.html.haml",
+		"/Users/vincent/dev/headstart/db/migrate/20130125105821_sorcery_core.rb",
+		"/Users/vincent/dev/headstart/app/controllers/sessions_controller.rb",
+		"/Users/vincent/dev/headstart/app/models/authentication.rb",
+		"/Users/vincent/dev/headstart/app/views/users/edit.html.haml",
+		"/Users/vincent/dev/headstart/app/views/users/show.html.haml",
+		"/Users/vincent/dev/headstart/app/views/users/index.html.haml",
+		"/Users/vincent/dev/headstart/config/routes.rb",
+		"/Users/vincent/dev/headstart/app/controllers/users_controller.rb",
+		"/Users/vincent/dev/headstart/app/controllers/admin/users_controller.rb",
+		"/Users/vincent/dev/headstart/app/views/users/_form.html.haml",
+		"/Users/vincent/dev/headstart/db/migrate/20130217032216_create_authentications.rb",
+		"/Users/vincent/dev/headstart/db/migrate/20130217021645_user_fields.rb",
+		"/Users/vincent/dev/headstart/config/initializers/omniauth.rb",
+		"/Users/vincent/dev/headstart/Gemfile",
 		"/Users/vincent/dev/BugHerd/app/assets/javascripts/admin.js",
 		"/Users/vincent/dev/BugHerd/app/views/pages/preview.html.erb",
 		"/Users/vincent/dev/BugHerd/app/views/pages/home.html.erb",
@@ -260,22 +323,7 @@
 		"/Users/vincent/dev/bugherd-ruby/test/dummy/config/routes.rb",
 		"/Users/vincent/dev/bugherd-ruby/test/dummy/app/views/main/index.html.erb",
 		"/Users/vincent/dev/bugherd-ruby/test/dummy/app/controllers/main_controller.rb",
-		"/Users/vincent/dev/bugherd-ruby/lib/bugherd/railtie.rb",
-		"/Users/vincent/dev/bugherd-ruby/README.rdoc",
-		"/Users/vincent/dev/bugherd-ruby/test/dummy/config/initializers/bugherd.rb",
-		"/Users/vincent/dev/bugherd-ruby/lib/bugherd.rb",
-		"/Users/vincent/dev/bugherd-ruby/lib/bugherd/helper/bugherd_helper.rb",
-		"/Users/vincent/dev/bugherd-client/bugherd/bugherd.gemspec",
-		"/Users/vincent/dev/BugHerd/config/initializers/bugherd.rb",
-		"/Users/vincent/dev/bugherd-ruby/.gitignore",
-		"/Users/vincent/dev/bugherd-client/bugherd/lib/bugherd/configuration.rb",
-		"/Users/vincent/dev/bugherd-client/bugherd/MIT-LICENSE",
-		"/Users/vincent/dev/BugHerd/test.csv",
-		"/Users/vincent/dev/BugHerd/convert-playnicely.rb",
-		"/Users/vincent/Desktop/Hot Tomali/AmericanEHR.csv",
-		"/Users/vincent/dev/BugHerd/app/controllers/admin/projects_controller.rb",
-		"/Users/vincent/dev/paranoia/lib/paranoia.rb",
-		"/Users/vincent/dev/BugHerd/timesheet-vincent.rb"
+		"/Users/vincent/dev/bugherd-ruby/lib/bugherd/railtie.rb"
 	],
 	"find":
 	{
@@ -283,7 +331,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"/Users/vincent/dev/BugHerd/app",
@@ -457,8 +505,145 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/models/user.rb",
+					"settings":
+					{
+						"buffer_size": 1516,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								993,
+								993
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/users/_form.html.haml",
+					"settings":
+					{
+						"buffer_size": 1011,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								302,
+								302
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/users/show.html.haml",
+					"settings":
+					{
+						"buffer_size": 470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/users/index.html.haml",
+					"settings":
+					{
+						"buffer_size": 122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								122,
+								122
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/controllers/users_controller.rb",
+					"settings":
+					{
+						"buffer_size": 647,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								439,
+								439
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
