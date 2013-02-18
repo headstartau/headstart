@@ -5,14 +5,8 @@
     = stylesheet_link_tag    "application", :media => "all"
     = javascript_include_tag "application", "//use.typekit.net/lty6atq.js", "http://192.168.0.1:35729/livereload.js?snipver=1"
     = csrf_meta_tags
-
-    :javascript
-      (function (d, t) {
-        var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
-        bh.type = 'text/javascript';
-        bh.src = '//localhost:3000/sidebarv2.js?apikey=x9xj5eekwwbqnxs8yrt1og';
-        s.parentNode.insertBefore(bh, s);
-        })(document, 'script');
+    = bugherd_tag
+    = render :partial => 'shared/headstart'
 
   %body
     .main-wrap
@@ -20,9 +14,8 @@
         %header
           %h1.logo= link_to (image_tag "logo2.png", :width => 50), :root
           %ul.nav.main-nav
-            %li Events
-            %li Workshops
-            %li Discussions
+            %li= link_to 'Events', root_path
+            %li= link_to 'Headcases', users_path
           %ul
             - if current_user
               %li= link_to current_user.first_name, current_user

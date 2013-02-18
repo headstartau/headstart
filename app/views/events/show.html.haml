@@ -8,9 +8,9 @@
       .event-time= @event.starts_at.strftime("%H:%M")
   = link_to("#", :class => "btn") do
     <i>&#xF070;</i> I’m attending
+  %a.mu-rsvp-btn{"data-event" => "91467802", :href => "http://www.meetup.com/HeadStartAus/events/91467802/"} RSVP
   = link_to 'Back', root_path
   
-
 .content-block
   %h2.event-title= @event.name
   .event-info 
