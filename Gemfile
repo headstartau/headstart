@@ -5,7 +5,7 @@ gem 'rails', '~> 3.2.11'
 gem 'pg'
 gem 'haml-rails'
 
-group :assets do
+group :assets, :production do
   gem 'sass-rails'
   gem 'coffee-rails'
   gem 'compass-rails'
